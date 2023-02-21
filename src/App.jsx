@@ -1,12 +1,12 @@
-import './App.scss'
+import './App.scss';
+import Current from './Current';
 
 function App() {
-
-  return (
-    <div className="App">
-      
-    </div>
-  )
+	return (
+		<main className='App'>
+			<Current />
+		</main>
+	);
 }
 
-export default App
+export default App;
